@@ -44,7 +44,7 @@ como ferramentas de aprendizado.
 <br>
 <br>
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Medir%20o%20progresso%20da%20programação%20por%20linhas%20de%20código%20é%20como%20medir%20o%20progresso%20da%20construção%20de%20aeronaves%20em%20termos%20de%20peso.&author=Bill%20Gates)](https://github.com/piyushsuthar/github-readme-quotes)
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Algumas%20pessoas%20pensam%20que%20design%20significa%20como%20ele%20se%20parece.%20Mas,%20é%20claro,%20se%20você%20cavar%20mais%20fundo,%20na%20verdade%20é%20como%20ele%20funciona.&author=Steve%20Jobs)](https://github.com/piyushsuthar/github-readme-quotes)
 </div>
 
 <!-- ABOUT TEACHER -->
