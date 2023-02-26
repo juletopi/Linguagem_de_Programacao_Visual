@@ -40,3 +40,28 @@ como ferramentas de aprendizado.
 
 <div align="center">
 <img align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+
+<br>
+<br>
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Medir%20o%20progresso%20da%20programação%20por%20linhas%20de%20código%20é%20como%20medir%20o%20progresso%20da%20construção%20de%20aeronaves%20em%20termos%20de%20peso.&author=Bill%20Gates)](https://github.com/piyushsuthar/github-readme-quotes)
+</div>
+
+<!-- ABOUT TEACHER -->
+
+<div align="left">
+
+## 👨‍🏫 Professor:
+
+<a href="#"><img align="left" height="135px" width="135px" alt="ReinaldoLima-pic" src="https://user-images.githubusercontent.com/76459155/221387561-1a565eeb-2f3a-4524-bccf-5d0fcd03927f.png"></a>
+
+**Reinaldo Lima - Professor de Informática | Professor de Curso Técnico e Superior** \
+[**IFRO Campus Ji-Paraná**](https://portal.ifro.edu.br/ji-parana) • <i>Atuando desde Março de 2016</i> \
+Linguagens & Tecnologias: `C#` • `Windows Forms` \
+Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
+
+<br>
+
+<div align="center">
+<img align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
