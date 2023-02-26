@@ -26,8 +26,9 @@
 <div align="center">
 
 • Este é um repositório com os conteúdos de Linguagem de Programação Visual, \
-ministradas pelo professor [**Clayton Ferraz**](https://www.linkedin.com/in/claytonferraz/), utilizando o **Visual Studio**, \
-a linguagem **CSharp** e a estrutura de interface do **Windows Forms** como ferramentas de aprendizado.
+ministradas pelo professor [**Reinaldo Lima**](https://www.linkedin.com/in/reinaldo-lima-pereira-7b726856/), utilizando o **Visual Studio**, \
+a linguagem **CSharp** e a estrutura de interface do **Windows Forms** \
+como ferramentas de aprendizado.
 </div>
 
 <div align="center">
