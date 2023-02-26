@@ -19,7 +19,7 @@
 <!-- PRESENTATION -->
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/76459155/221386519-5f7aa521-6c02-4adb-a1ed-9c2e79e1454d.png" alt="VisualProgramming-pic" width="116px">
+<a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/WindowsForms-pic.png"><img src="https://user-images.githubusercontent.com/76459155/221386519-5f7aa521-6c02-4adb-a1ed-9c2e79e1454d.png" alt="VisualProgramming-pic" width="116px"></a>
 <h2 align="center">Linguagem de Programação Visual 📟</h2>
 </div>
 
@@ -53,7 +53,7 @@ como ferramentas de aprendizado.
 
 ## 👨‍🏫 Professor:
 
-<a href="#"><img align="left" height="135px" width="135px" alt="ReinaldoLima-pic" src="https://user-images.githubusercontent.com/76459155/221387561-1a565eeb-2f3a-4524-bccf-5d0fcd03927f.png"></a>
+<a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/ReinaldoLima-pic.png"><img align="left" height="135px" width="135px" alt="ReinaldoLima-pic" src="https://user-images.githubusercontent.com/76459155/221387561-1a565eeb-2f3a-4524-bccf-5d0fcd03927f.png"></a>
 
 **Reinaldo Lima - Professor de Informática | Professor de Curso Técnico e Superior** \
 [**IFRO Campus Ji-Paraná**](https://portal.ifro.edu.br/ji-parana) • <i>Atuando desde Março de 2016</i> \
@@ -80,7 +80,7 @@ Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
 ----
 
 <div align="center">
-<a href="#"><img src="https://user-images.githubusercontent.com/76459155/221390038-184b6e68-53bb-4f33-ba0b-2a6dd727b592.png" align="center" width="600" height="90" alt="ObrigadoPorVisitar(Cinza)-pic"/></a>
+<a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/ObrigadoPorVisitar(Cinza)-pic.png"><img src="https://user-images.githubusercontent.com/76459155/221390038-184b6e68-53bb-4f33-ba0b-2a6dd727b592.png" align="center" width="600" height="90" alt="ObrigadoPorVisitar(Cinza)-pic"/></a>
 </div>
 
 <div align="center">
