@@ -65,3 +65,24 @@ Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
 <div align="center">
 <img align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
+
+<!-- LEARNED CONCEPTS -->
+
+## 📚 Conceitos Aprendidos:
+
+<h6 align="left">
+<a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+
+<br>
+
+<!-- THANK YOU, GOODBYE -->
+
+----
+
+<div align="center">
+<a href="#"><img src="https://user-images.githubusercontent.com/76459155/221390038-184b6e68-53bb-4f33-ba0b-2a6dd727b592.png" align="center" width="600" height="90" alt="ObrigadoPorVisitar(Cinza)-pic"/></a>
+</div>
+
+<div align="center">
+Made with 🖤 by Juletopi
+</div>
