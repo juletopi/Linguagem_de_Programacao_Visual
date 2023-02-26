@@ -34,6 +34,7 @@ como ferramentas de aprendizado.
 <div align="center">
 <a href="https://visualstudio.microsoft.com/"><img src="https://img.shields.io/badge/Made%20with%20IDE:-Visual%20Studio%20-gray.svg?colorA=655BE1&amp;colorB=4F44D6&amp;style=for-the-badge" alt="VisualStudioIDE-badge" style="max-width: 100%;"></a>
 <a href="https://dotnet.microsoft.com/en-us/languages/csharp"><img src="https://img.shields.io/badge/Made%20with%20language:-CSharp%20-gray.svg?colorA=61c265&amp;colorB=4CAF50&amp;style=for-the-badge" alt="CSharpLanguage-badge" style="max-width: 100%;"></a>
+
 <a href="https://learn.microsoft.com/en-us/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2022"><img src="https://img.shields.io/badge/Made%20with%20GUI:-Windows%20Forms-gray.svg?colorA=636363&amp;colorB=343434&amp;style=for-the-badge" alt="WindowsForms-badge" style="max-width: 100%;"></a>
 </div>
 
