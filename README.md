@@ -84,5 +84,5 @@ Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
 </div>
 
 <div align="center">
-Made with 🖤 by Juletopi
+Feito com 🖤 por Juletopi
 </div>
