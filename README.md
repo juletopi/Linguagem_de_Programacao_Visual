@@ -72,7 +72,7 @@ Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
 
 ### 1. Ferramentas do Windows Forms e Criando uma Calculadora Simples
 
-> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222274248-4f711c97-50e6-4b9f-a779-18d0ad695f66.PNG" alt="ContentPageDesktop-pic" style="width: 60%;"></a>
+> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222274248-4f711c97-50e6-4b9f-a779-18d0ad695f66.PNG" alt="JanelaCalculadoraSimples-pic" style="width: 60%;"></a>
 </div>
 
 > **Note** ➜ *Retirado da aula de "[Calculadora_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calculadora_WinForms/Form1.cs)"*
