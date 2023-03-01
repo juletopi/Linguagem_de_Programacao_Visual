@@ -70,6 +70,22 @@ Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
 
 ## 📚 Conceitos Aprendidos:
 
+<div align="center">
+
+> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222274248-4f711c97-50e6-4b9f-a779-18d0ad695f66.PNG" alt="ContentPageDesktop-pic" style="width: 50%;"></a>
+</div>
+
+### 1. Ferramentas do Windows Forms e Criando uma Calculadora Simples
+> **Note** ➜ *Retirado da aula de "[]()"*
+
+Nesta aula foram aprendidos:
+- Conceitos básicos da ferramenta do Windows Forms
+- Criação labels, text-boxes, buttons
+- Algoritmos simples de Soma, Subtração, Multiplicação e Divisão
+```c#
+
+```
+
 <h6 align="left">
 <a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
 
