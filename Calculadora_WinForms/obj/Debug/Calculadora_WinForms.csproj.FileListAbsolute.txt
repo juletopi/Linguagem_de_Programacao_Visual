@@ -1,0 +1,11 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\bin\Debug\Calculadora_WinForms.exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\bin\Debug\Calculadora_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\bin\Debug\Calculadora_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.Calculadora_Simples.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_WF\Calculadora_WinForms\obj\Debug\Calculadora_WinForms.pdb
