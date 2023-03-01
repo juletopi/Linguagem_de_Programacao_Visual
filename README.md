@@ -70,20 +70,47 @@ Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
 
 ## 📚 Conceitos Aprendidos:
 
-<div align="center">
+### 1. Ferramentas do Windows Forms e Criando uma Calculadora Simples
 
-> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222274248-4f711c97-50e6-4b9f-a779-18d0ad695f66.PNG" alt="ContentPageDesktop-pic" style="width: 50%;"></a>
+> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222274248-4f711c97-50e6-4b9f-a779-18d0ad695f66.PNG" alt="ContentPageDesktop-pic" style="width: 60%;"></a>
 </div>
 
-### 1. Ferramentas do Windows Forms e Criando uma Calculadora Simples
-> **Note** ➜ *Retirado da aula de "[]()"*
+> **Note** ➜ *Retirado da aula de "[Calculadora_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calculadora_WinForms/Form1.cs)"*
 
 Nesta aula foram aprendidos:
 - Conceitos básicos da ferramenta do Windows Forms
-- Criação labels, text-boxes, buttons
+- Criação labels, text-boxes e buttons com a Caixa de Ferramentas
 - Algoritmos simples de Soma, Subtração, Multiplicação e Divisão
 ```c#
+private void btnSomar_Click(object sender, EventArgs e)
+{
+    lblResultadoNum.Text = (float.Parse(txtValor1.Text) + float.Parse(txtValor2.Text) + float.Parse(txtValor3.Text) + float.Parse(txtValor4.Text)).ToString();
+}
 
+private void btnSubtrair_Click(object sender, EventArgs e)
+{
+    lblResultadoNum.Text = (float.Parse(txtValor1.Text) - float.Parse(txtValor2.Text) - float.Parse(txtValor3.Text) - float.Parse(txtValor4.Text)).ToString();
+}
+
+private void btnMultiplicar_Click(object sender, EventArgs e)
+{
+    lblResultadoNum.Text = (float.Parse(txtValor1.Text) * float.Parse(txtValor2.Text) * float.Parse(txtValor3.Text) * float.Parse(txtValor4.Text)).ToString();
+}
+
+private void btnDividir_Click(object sender, EventArgs e)
+{
+    lblResultadoNum.Text = (float.Parse(txtValor1.Text) / float.Parse(txtValor2.Text) / float.Parse(txtValor3.Text) / float.Parse(txtValor4.Text)).ToString();
+}
+
+private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtValor1.Clear();
+    txtValor2.Clear();
+    txtValor3.Clear();
+    txtValor4.Clear();
+    txtValor1.Select();
+    lblResultadoNum.Text = "0";
+}
 ```
 
 <h6 align="left">
