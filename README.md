@@ -122,7 +122,7 @@ private void btnLimpar_Click(object sender, EventArgs e)
 
 ### 2. Criando uma Calculadora de Desconto
 
-> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222634709-7ce89082-bb4b-4cf3-9578-cded6cf2e2ac.PNG" alt="JanelaCalcDeDesconto-pic" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaCalcDeDesconto-pic.PNG"><img align="center" src="https://user-images.githubusercontent.com/76459155/222634709-7ce89082-bb4b-4cf3-9578-cded6cf2e2ac.PNG" alt="JanelaCalcDeDesconto-pic" style="width: 50%;"></a>
 </div>
 
 > **Note** ➜ *Retirado da aula de "[Calc_de_Desconto_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calc_de_Desconto_WinForms/Form1.cs)"*
