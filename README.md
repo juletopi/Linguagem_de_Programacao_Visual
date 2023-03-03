@@ -57,8 +57,8 @@ como ferramentas de aprendizado.
 
 **Reinaldo Lima - Professor de Informática | Professor de Curso Técnico e Superior** \
 [**IFRO Campus Ji-Paraná**](https://portal.ifro.edu.br/ji-parana) • <i>Atuando desde Março de 2016</i> \
-Linguagens & Tecnologias: `C#` • `Windows Forms` \
-Contato: **[2301059@ifro.local](mailto:2301059@ifro.local)**
+Linguagens & Tecnologias: `C#` • `Windows Forms` • `Java` • `Delphi` \
+Contato: **[reinaldo.pereira@ifro.local](mailto:reinaldo.pereira@ifro.local)**
 
 <br>
 
