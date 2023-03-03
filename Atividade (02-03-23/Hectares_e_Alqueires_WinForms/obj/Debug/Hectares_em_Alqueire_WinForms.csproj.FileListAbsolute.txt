@@ -1,0 +1,11 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.Form1.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\bin\Debug\Hectares_em_Alqueire_WinForms.exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\bin\Debug\Hectares_em_Alqueire_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\bin\Debug\Hectares_em_Alqueire_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (Dia 02-03-2023) WF\Hectares_em_Alqueire_WinForms\obj\Debug\Hectares_em_Alqueire_WinForms.pdb
