@@ -55,7 +55,7 @@ como ferramentas de aprendizado.
 
 <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/ReinaldoLima-pic.png"><img align="left" height="135px" width="135px" alt="ReinaldoLima-pic" src="https://user-images.githubusercontent.com/76459155/221387561-1a565eeb-2f3a-4524-bccf-5d0fcd03927f.png"></a>
 
-**Reinaldo Lima - Professor de Informática | Professor de Curso Técnico e Superior** \
+**Reinaldo Lima - Professor de Informática | Professor de Curso Técnico, Superior e Pós-Graduação** \
 [**IFRO Campus Ji-Paraná**](https://portal.ifro.edu.br/ji-parana) • <i>Atuando desde Março de 2016</i> \
 Linguagens & Tecnologias: `C#` • `Windows Forms` • `Java` • `Delphi` \
 Contato: **[reinaldo.pereira@ifro.local](mailto:reinaldo.pereira@ifro.local)**
@@ -109,6 +109,46 @@ private void btnLimpar_Click(object sender, EventArgs e)
     txtValor3.Clear();
     txtValor4.Clear();
     txtValor1.Select();
+    lblResultadoNum.Text = "0";
+}
+```
+
+<h6 align="left">
+<a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+
+<div align="center">
+<img align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+### 2. Ferramentas do Windows Forms e Criando uma Calculadora Simples
+
+> <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222634709-7ce89082-bb4b-4cf3-9578-cded6cf2e2ac.PNG" alt="JanelaCalcDeDesconto-pic" style="width: 50%;"></a>
+</div>
+
+> **Note** ➜ *Retirado da aula de "[Calc_de_Desconto_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calc_de_Desconto_WinForms/Form1.cs)"*
+
+Nesta aula foram aprendidos:
+- Criação labels, text-boxes e buttons com a Caixa de Ferramentas
+- Algoritmo matemático simples de aplicação de desconto em porcentagem
+```c#
+private void btnCalcularDesconto_Click(object sender, EventArgs e)
+{
+    double valorDaCompra = 0, percDeDesconto = 0, valorComDesconto = 0;
+
+    valorDaCompra = Convert.ToDouble(txtValorDaCompra.Text);
+    percDeDesconto = Convert.ToDouble(txtPercDeDesconto.Text);
+    valorComDesconto = Convert.ToDouble(lblResultadoNum.Text);
+
+    valorComDesconto = valorDaCompra - valorDaCompra * (percDeDesconto / 100);
+
+    lblResultadoNum.Text = valorComDesconto.ToString("F");
+}
+
+    private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtPercDeDesconto.Clear();
+    txtValorDaCompra.Clear();
+    txtValorDaCompra.Select();
     lblResultadoNum.Text = "0";
 }
 ```
