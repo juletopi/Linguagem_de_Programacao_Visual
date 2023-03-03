@@ -120,7 +120,7 @@ private void btnLimpar_Click(object sender, EventArgs e)
 <img align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
 
-### 2. Ferramentas do Windows Forms e Criando uma Calculadora Simples
+### 2. Criando uma Calculadora de Desconto
 
 > <a href="#"><img align="center" src="https://user-images.githubusercontent.com/76459155/222634709-7ce89082-bb4b-4cf3-9578-cded6cf2e2ac.PNG" alt="JanelaCalcDeDesconto-pic" style="width: 50%;"></a>
 </div>
