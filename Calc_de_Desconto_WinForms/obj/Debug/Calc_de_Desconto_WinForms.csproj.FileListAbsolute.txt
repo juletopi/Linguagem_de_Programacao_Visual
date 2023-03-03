@@ -1,0 +1,11 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\bin\Debug\Calc_de_Desconto_WinForms.exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\bin\Debug\Calc_de_Desconto_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\bin\Debug\Calc_de_Desconto_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.Calc_de_Desconto.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Calculadora_de_Desconto_WF\Calc_de_Desconto_WinForms\obj\Debug\Calc_de_Desconto_WinForms.pdb
