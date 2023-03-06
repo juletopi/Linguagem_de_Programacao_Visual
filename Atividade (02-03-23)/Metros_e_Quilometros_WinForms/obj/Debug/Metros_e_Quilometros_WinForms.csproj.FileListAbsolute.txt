@@ -1,0 +1,11 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\bin\Debug\Metros_e_Quilometros_WinForms.exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\bin\Debug\Metros_e_Quilometros_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\bin\Debug\Metros_e_Quilometros_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.Metros_e_Quilometros_WinForms.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Metros_e_Quilometros_WinForms\obj\Debug\Metros_e_Quilometros_WinForms.pdb
