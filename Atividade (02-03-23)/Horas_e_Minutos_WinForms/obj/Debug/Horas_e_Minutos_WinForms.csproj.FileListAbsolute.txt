@@ -1,0 +1,11 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\bin\Debug\Horas_e_Minutos_WinForms.exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\bin\Debug\Horas_e_Minutos_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\bin\Debug\Horas_e_Minutos_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.Horas_e_Minutos_WinForms.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (02-03-23) WF\Horas_e_Minutos_WinForms\obj\Debug\Horas_e_Minutos_WinForms.pdb
