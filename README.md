@@ -189,7 +189,7 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 ### 3. Criando um Menu de Seleção para abrir Novas Janelas
 
 > ### O Menu Principal
-> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaMenuPrincipaldeConversores-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
 
 > **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Form1.cs)"*
 
@@ -226,7 +226,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 ```
 
 > ### As Novas Janelas: Conversor de Hectares ⇆ Alqueires
-> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectaresAlqueires-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
 
 > **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecParaAlq.cs)"*
 
@@ -272,7 +272,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 ```
 
 > ### As Novas Janelas: Conversor de Metros ⇆ Km
-> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorMetrosKilometros-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
 
 > **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterMetroseKilometros.cs)"*
 
@@ -318,7 +318,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 ```
 
 > ### As Novas Janelas: Conversor de Horas ⇆ Minutos
-> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHorasMinutos-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
 
 > **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHoraseMinutos.cs)"*
 
@@ -364,7 +364,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 ```
 
 > ### As Novas Janelas: Conversor de Hectares ⟶ Km²
-> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectKmQuadrado-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
 
 > **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecteKmQuadrado.cs)"*
 
