@@ -191,46 +191,208 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 > ### O Menu Principal
 > <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Form1.cs)"*
 
 ```c#
+private void btnConversorHecteAlqu_Click(object sender, EventArgs e)
+{
+    FormConverterHecteAlqu form = new FormConverterHecteAlqu();
+    form.ShowDialog();
+}
 
+private void btnConversorMetroseKilometros_Click(object sender, EventArgs e)
+{
+    FormConverterMetroseKilometros form = new FormConverterMetroseKilometros();
+    form.ShowDialog();
+}
+
+private void btnConversorHoraseMinutos_Click(object sender, EventArgs e)
+{
+    FormConverterHoraseMinutos form = new FormConverterHoraseMinutos();
+    form.ShowDialog();
+}
+
+private void btnConversorHecteKmQuadrado_Click(object sender, EventArgs e)
+{
+    FormConverterHecteKmQuadrado form = new FormConverterHecteKmQuadrado();
+    form.ShowDialog();
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
 ```
 
 > ### As Novas Janelas: Conversor de Hectares ⇆ Alqueires
 > <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecParaAlq.cs)"*
 
 ```c#
+private void btnConverterHectare_Click(object sender, EventArgs e)
+{
+    double valorHectare = 0, valorAlqueire = 0;
 
+    valorHectare = Convert.ToDouble(txtValorHectare.Text);
+    valorAlqueire = Convert.ToDouble(lblResultadoHectareParaAlqueire.Text);
+
+    valorAlqueire = valorHectare * 2.42;
+
+    lblResultadoHectareParaAlqueire.Text = valorAlqueire.ToString();
+}
+
+private void btnConverterAlquere_Click(object sender, EventArgs e)
+{
+    double valorHectare = 0, valorAlqueire = 0;
+
+    valorAlqueire = Convert.ToDouble(txtValorAlqueire.Text);
+    valorHectare = Convert.ToDouble(lblResultadoAlqueireParaHectare.Text);
+
+    valorHectare = valorAlqueire / 2.42;
+
+    lblResultadoAlqueireParaHectare.Text = valorHectare.ToString();
+}
+
+private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtValorHectare.Clear();
+    txtValorAlqueire.Clear();
+    txtValorHectare.Select();
+    lblResultadoHectareParaAlqueire.Text = "0";
+    lblResultadoAlqueireParaHectare.Text = "0";
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
 ```
 
 > ### As Novas Janelas: Conversor de Metros ⇆ Km
 > <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
 
-> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterMetroseKilometros.cs)"*
 
 ```c#
+private void btnConverterMetrosParaKm_Click(object sender, EventArgs e)
+{
+    double valorMetros = 0, valorQuilometros = 0;
 
+    valorMetros = Convert.ToDouble(txtValorMetros.Text);
+    valorQuilometros = Convert.ToDouble(lblResultadoMetrosParaKm.Text);
+
+    valorQuilometros = valorMetros / 1000;
+
+    lblResultadoMetrosParaKm.Text = valorQuilometros.ToString();
+}
+
+private void btnConverterKmParaMetros_Click(object sender, EventArgs e)
+{
+    double valorMetros = 0, valorQuilometros = 0;
+
+    valorQuilometros = Convert.ToDouble(txtValorKm.Text);
+    valorMetros = Convert.ToDouble(lblResultadoKmParaMetros.Text);
+
+    valorMetros = valorQuilometros * 1000;
+
+    lblResultadoKmParaMetros.Text = valorMetros.ToString();
+}
+
+private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtValorMetros.Clear();
+    txtValorKm.Clear();
+    txtValorMetros.Select();
+    lblResultadoMetrosParaKm.Text = "0";
+    lblResultadoKmParaMetros.Text = "0";
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
 ```
 
 > ### As Novas Janelas: Conversor de Horas ⇆ Minutos
 > <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHoraseMinutos.cs)"*
 
 ```c#
+private void btnConverterHorasParaMinutos_Click(object sender, EventArgs e)
+{
+    double valorHoras = 0, valorMinutos = 0;
 
+    valorHoras = Convert.ToDouble(txtValorHoras.Text);
+    valorMinutos = Convert.ToDouble(lblResultadoHorasParaMinutos.Text);
+
+    valorMinutos = valorHoras * 60;
+
+    lblResultadoHorasParaMinutos.Text = valorMinutos.ToString();
+}
+
+private void btnConverteMinutosParaHoras_Click(object sender, EventArgs e)
+{
+    double valorHoras = 0, valorMinutos = 0;
+
+    valorMinutos = Convert.ToDouble(txtValorMinutos.Text);
+    valorHoras = Convert.ToDouble(lblResultadoMinutosParaHoras.Text);
+
+    valorHoras = valorMinutos / 60;
+
+    lblResultadoMinutosParaHoras.Text = valorHoras.ToString();
+}
+
+private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtValorHoras.Clear();
+    txtValorMinutos.Clear();
+    txtValorHoras.Select();
+    lblResultadoHorasParaMinutos.Text = "0";
+    lblResultadoMinutosParaHoras.Text = "0";
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
 ```
 
 > ### As Novas Janelas: Conversor de Hectares ⟶ Km²
 > <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecteKmQuadrado.cs)"*
 
 ```c#
+private void btnConverterHectParaKmQuadrado_Click(object sender, EventArgs e)
+{
+    double valorHectare = 0, valorKmQuadrado = 0;
 
+    valorHectare = Convert.ToDouble(txtValorHectare.Text);
+    valorKmQuadrado = Convert.ToDouble(lblResultadoHectParaKmQuadrado.Text);
+
+    valorKmQuadrado = valorHectare * 0.0042;
+
+    lblResultadoHectParaKmQuadrado.Text = valorKmQuadrado.ToString();
+}
+
+private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtValorHectare.Clear();
+    txtValorHectare.Select();
+    lblResultadoHectParaKmQuadrado.Text = "0";
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
 ```
 
 <div align="left">
