@@ -190,6 +190,16 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 
 ### 3. Criando um Menu de Seleção para abrir Novas Janelas
 
+<div align="left">
+ 
+  Nesta aula foram aprendidos:
+  - Criação de novos formulários para criar novas janelas para acessar através dos botões
+  - Linkar o acesso de uma janela a outra através do código
+  - Criar um conversor de Hectares ⇆ Alqueires
+  - Criar um conversor de Horas ⇆ Minutos
+  - Criar um conversor de Metros ⇆ Km
+  - Criar um conversor de Hectares ⟶ Km²
+
 > ### O Menu Principal
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaMenuPrincipaldeConversores-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
 
@@ -401,16 +411,6 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
     Process.Start(url);
 }
 ```
-
-<div align="left">
- 
-  Nesta aula foram aprendidos:
-  - Criação de novos formulários para criar novas janelas para acessar através dos botões
-  - Linkar o acesso de uma janela a outra através do código
-  - Criar um conversor de Hectares ⇆ Alqueires
-  - Criar um conversor de Horas ⇆ Minutos
-  - Criar um conversor de Metros ⇆ Km
-  - Criar um conversor de Hectares ⟶ Km²
  
 </div>
 
