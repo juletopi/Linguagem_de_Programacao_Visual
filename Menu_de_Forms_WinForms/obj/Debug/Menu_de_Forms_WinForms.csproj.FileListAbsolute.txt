@@ -1,0 +1,15 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\bin\Debug\Menu_de_Forms_WinForms.exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\bin\Debug\Menu_de_Forms_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\bin\Debug\Menu_de_Forms_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.Formularios.FormConverterHecteAlqu.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.FormAppMenudeConversores.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.Formularios.FormConverterHecteKmQuadrado.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.Formularios.FormConverterHoraseMinutos.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Menu_de_Forms_WinForms\obj\Debug\Menu_de_Forms_WinForms.Formularios.FormConverterMetroseKilometros.resources
