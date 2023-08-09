@@ -182,7 +182,9 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
   <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
 </div>
 
-<br>
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
 
 ### 3. Criando um Menu de Seleção para abrir Novas Janelas
 
@@ -191,10 +193,45 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 
 > **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
 
-> ### As Novas Janelas
-> <div align="left"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a> <div align="right"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> <div align="left"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a> <div align="right"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
+```c#
+
+```
+
+> ### As Novas Janelas: Conversor de Hectares ⇆ Alqueires
+> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
 
 > **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+
+```c#
+
+```
+
+> ### As Novas Janelas: Conversor de Metros ⇆ Km
+> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
+
+> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+
+```c#
+
+```
+
+> ### As Novas Janelas: Conversor de Horas ⇆ Minutos
+> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
+
+> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+
+```c#
+
+```
+
+> ### As Novas Janelas: Conversor de Hectares ⟶ Km²
+> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
+
+> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+
+```c#
+
+```
 
 <div align="left">
  
@@ -207,10 +244,6 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
   - Criar um conversor de Hectares ⟶ Km²
  
 </div>
-
-```c#
-
-```
 
 <div align="left">
   <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
