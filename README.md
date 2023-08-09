@@ -184,6 +184,40 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 
 <br>
 
+### 3. Criando um Menu de Seleção para abrir Novas Janelas
+
+> ### O Menu Principal
+> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
+
+> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+
+> ### As Novas Janelas
+> <div align="left"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a> <div align="right"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> <div align="left"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a> <div align="right"> <a href=""><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
+
+> **Note** ➜ *Retirado da aula de "[---](https://github.com/juletopi/)"*
+
+<div align="left">
+ 
+  Nesta aula foram aprendidos:
+  - Criação de novos formulários para criar novas janelas para acessar através dos botões
+  - Linkar o acesso de uma janela a outra através do código
+  - Criar um conversor de Hectares ⇆ Alqueires
+  - Criar um conversor de Horas ⇆ Minutos
+  - Criar um conversor de Metros ⇆ Km
+  - Criar um conversor de Hectares ⟶ Km²
+ 
+</div>
+
+```c#
+
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<br>
+
 <!-- THANK YOU, GOODBYE -->
 
 ----
