@@ -91,7 +91,8 @@
 
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaCalculadoraSimples-pic.PNG"><img align="center" src="https://user-images.githubusercontent.com/76459155/222274248-4f711c97-50e6-4b9f-a779-18d0ad695f66.PNG" alt="JanelaCalculadoraSimples-pic" title="Calculadora Simples" style="width: 60%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[Calculadora_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calculadora_WinForms/Form1.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Calculadora_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calculadora_WinForms/Form1.cs)"*
 
 <div align="left">
  
@@ -145,7 +146,8 @@ private void btnLimpar_Click(object sender, EventArgs e)
 
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaCalcDeDesconto-pic.PNG"><img align="center" src="https://user-images.githubusercontent.com/76459155/222634709-7ce89082-bb4b-4cf3-9578-cded6cf2e2ac.PNG" alt="JanelaCalcDeDesconto-pic" title="Calculadora de Desconto" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[Calc_de_Desconto_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calc_de_Desconto_WinForms/Form1.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Calc_de_Desconto_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calc_de_Desconto_WinForms/Form1.cs)"*
 
 <div align="left">
  
@@ -191,7 +193,8 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 > ### O Menu Principal
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaMenuPrincipaldeConversores-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Form1.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Form1.cs)"*
 
 ```c#
 private void btnConversorHecteAlqu_Click(object sender, EventArgs e)
@@ -228,7 +231,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 > ### As Novas Janelas: Conversor de Hectares ⇆ Alqueires
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectaresAlqueires-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecParaAlq.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecParaAlq.cs)"*
 
 ```c#
 private void btnConverterHectare_Click(object sender, EventArgs e)
@@ -274,7 +278,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 > ### As Novas Janelas: Conversor de Metros ⇆ Km
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorMetrosKilometros-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
 
-> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterMetroseKilometros.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterMetroseKilometros.cs)"*
 
 ```c#
 private void btnConverterMetrosParaKm_Click(object sender, EventArgs e)
@@ -320,7 +325,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 > ### As Novas Janelas: Conversor de Horas ⇆ Minutos
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHorasMinutos-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHoraseMinutos.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHoraseMinutos.cs)"*
 
 ```c#
 private void btnConverterHorasParaMinutos_Click(object sender, EventArgs e)
@@ -366,7 +372,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 > ### As Novas Janelas: Conversor de Hectares ⟶ Km²
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectKmQuadrado-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
 
-> **Note** ➜ *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecteKmQuadrado.cs)"*
+> [!NOTE]\
+> *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Formularios/FormConverterHecteKmQuadrado.cs)"*
 
 ```c#
 private void btnConverterHectParaKmQuadrado_Click(object sender, EventArgs e)
