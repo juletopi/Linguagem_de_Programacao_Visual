@@ -442,6 +442,29 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
   <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
 </div>
 
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+### 4. Exemplos de Interação com o Usuário
+
+<div align="left">
+ 
+  Nesta aula foram aprendidos:
+  - Message boxes para interação com o usuário
+  - Diferentes formas de inserir message boxes
+  - Eventos de click in e click out
+
+> ### O Menu Principal
+> <a href=""><img align="center" src="" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[----](https://github.com/juletopi/)"*
+
+```c#
+
+```
+
 <br>
 
 <!-- THANK YOU, GOODBYE -->
