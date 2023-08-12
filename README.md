@@ -238,6 +238,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 }
 ```
 
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
 </div>
@@ -291,6 +295,11 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 }
 
 ```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
 </div>
@@ -344,6 +353,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 }
 ```
 
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
 </div>
@@ -396,6 +409,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
     Process.Start(url);
 }
 ```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
 
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
@@ -496,6 +513,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 }
 ```
 
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
 </div>
@@ -553,6 +574,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 }
 ```
 
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
 </div>
@@ -601,6 +626,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
     Process.Start(url);
 }
 ```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
 
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
@@ -693,6 +722,10 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
     Process.Start(url);
 }
 ```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
 
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
