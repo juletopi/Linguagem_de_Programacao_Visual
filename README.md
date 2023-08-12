@@ -455,18 +455,370 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
   - Diferentes formas de inserir message boxes
   - Eventos de click in e click out
 
-> ### O Menu Principal
-> <a href=""><img align="center" src="" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
+> ### O Menu de Opções de Interação
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaMenuPrincipaldeInteracoes-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/8218d73c-10ad-49e4-b3a3-40a63d057a3f" alt="JanelaMenudeOpcoesdeInteracao-pic" title="Menu de Opções de Interação" style="width: 50%;"></a>
 
 > [!NOTE]\
-> *Retirado da aula de "[----](https://github.com/juletopi/)"*
+> *Retirado da aula de "[AppExemplo2](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/Form1.cs)"*
 
 ```c#
+// Criando o Menu Principal
 
+private void btnAlertas_Click(object sender, EventArgs e)
+{
+    FormAlertas form = new FormAlertas();
+    form.ShowDialog(); // <-- Não permite que o usuário faça qualquer outra ação até que termine
+                              // ou conclua o processo da janela atual do qual ele abriu.
+}
+
+private void btnExemploAlerta_Click(object sender, EventArgs e)
+{
+    FormExemploAlerta form = new FormExemploAlerta(); // <-- Linkando a ação do click para abrir uma nova janela
+    form.ShowDialog();
+}
+
+private void btnExemploAltdeRotulo_Click(object sender, EventArgs e)
+{
+    FormExemploRotulos form = new FormExemploRotulos();
+    form.ShowDialog();
+}
+
+private void btnExemploComboBox_Click(object sender, EventArgs e)
+{
+    FormExemploComboBox form = new FormExemploComboBox();
+    form.ShowDialog();
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
 ```
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+</div>
 
 <br>
 
+> ### As Novas Janelas: Exemplos de Alertas
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaAlertasdeInteracao-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/36bca590-ad50-43dd-8d91-5eb47141c77a" alt="JanelaExemplosdeAlertas-pic" title="Janela de Exemplos de Alertas" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppExemplo2](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/Formularios/FormAlertas.cs)"*
+
+```c#
+// Como criar Mensagens de Interação com o Usuário
+
+private void btnInformacao_Click(object sender, EventArgs e)
+{
+    MessageBox.Show("Texto da Menssagem", "Título da Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information); // <-- Menssagem de INFORMAÇÂO
+}
+
+private void btnAtencao_Click(object sender, EventArgs e)
+{
+    MessageBox.Show("Texto da Menssagem", "Título da Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Warning); // <-- Mensagem de ALERTA
+}
+
+private void btnErro_Click(object sender, EventArgs e)
+{
+    MessageBox.Show("Texto da Menssagem", "Título da Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Error); // <-- Mensagem de ERRO
+}
+
+private void btnPergunta_Click(object sender, EventArgs e)
+{
+    MessageBox.Show("Texto da Menssagem", "Título da Mensagem", MessageBoxButtons.YesNo, MessageBoxIcon.Question); // <-- Mensagem de PERGUNTA
+}
+
+private void btnExemplo_Click(object sender, EventArgs e)
+{
+    DialogResult resposta;
+    resposta = MessageBox.Show("Em caminho de Paca, Tatu caminha dentro?", "Pergunta:", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+    MessageBox.Show("Resposta" +resposta.ToString(), "Pergunta:", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+    MessageBox.Show("Deseja fechar o programa?", "Pergunta:", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+    if(resposta == DialogResult.Yes) 
+    {
+       this.Close(); // <-- Fecha o programa
+    }
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
+```
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+</div>
+
+<br>
+
+> ### As Novas Janelas: Exemplo com Alerta
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploAlerta-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6708975c-f2cb-48fa-a257-a405a75f568e" alt="JanelaExemplocomAlerta-pic" title="Janela de Exemplo com Alerta" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppExemplo2](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/Formularios/FormExemploAlerta.cs)"*
+
+```c#
+private void btnCalcular_Click(object sender, EventArgs e)
+{
+    double valor1, valor2, total;
+    valor1 = Convert.ToDouble(txtValor1.Text);
+    valor2 = Convert.ToDouble(txtValor2.Text);
+
+    if (valor2 != 0)
+    {
+        total = valor1 / valor2;
+        lblResultadoDivisao.Text = total.ToString("F2");
+    }
+    else
+    {
+        MessageBox.Show("Não é possível dividir por zero!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        txtValor1.Clear();
+        txtValor2.Clear();
+        txtValor1.Select();
+        lblResultadoDivisao.Text = "0";
+    }
+}
+
+private void btnLimpar_Click(object sender, EventArgs e)
+{
+    txtValor1.Clear();
+    txtValor2.Clear();
+    txtValor1.Select();
+    lblResultadoDivisao.Text = "0";
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
+```
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+</div>
+
+<br>
+
+> ### As Novas Janelas: Exemplo com Rótulo
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploRotuloANTES-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/3d38dcf7-e084-4b06-9338-0d95b432cb99" alt="JanelaExemplocomRotuloANTES-pic" title="Janela de Exemplo com Alteração de Rótulo (ANTES)" style="width: 40%;"></a>
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploRotuloDEPOIS-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/be57704a-b8ed-4c13-8a29-4b726441d081" alt="JanelaExemplocomRotuloDEPOIS-pic" title="Janela de Exemplo com Alteração de Rótulo (DEPOIS)" style="width: 40%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppExemplo2](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/Formularios/FormExemploRotulos.cs)"*
+
+```c#
+private void btnNovo_Click(object sender, EventArgs e)
+{
+    txtPercentual.Clear();
+    txtSalarioAtual.Clear();
+    txtSalarioAtual.Select();
+    lblResultado.Text = "Salário Reajustado";
+    lblResultado.ForeColor = Color.Black;
+}
+
+private void btnCalcular_Click(object sender, EventArgs e)
+{
+    double salarioAtual = 0, percentual = 0, salarioReajustado;
+
+    salarioAtual = Convert.ToDouble(txtSalarioAtual.Text);
+    percentual = Convert.ToDouble(txtPercentual.Text);
+    percentual = percentual / 100;
+
+    salarioReajustado = salarioAtual + salarioAtual * percentual;
+
+    lblResultado.Text = "O salário atualizado é: " + salarioReajustado.ToString("C2"); // <-- "C2" adiciona a moeda corrente: "R$ 0,00" ao resultado numérico
+    lblResultado.ForeColor = Color.Blue;
+}
+
+private void txtSalarioAtual_KeyDown(object sender, KeyEventArgs e)
+{
+    if(e.KeyCode == Keys.Enter) // <-- Vai para o campo seguinte
+    {
+        if(txtSalarioAtual.Text == " ") // <-- Verifica se o campo está vazio
+        {
+            MessageBox.Show("O campo está vazio!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            txtSalarioAtual.Select(); // <-- Volta ao campo
+        }
+        else
+        {
+            txtPercentual.Select();
+        }
+    }
+}
+
+private void txtSalarioAtual_KeyUp(object sender, KeyEventArgs e)
+{
+    bool verificarNumero = false;
+
+    // Verificando o que foi digitado, "Número" ou "Letra"?
+
+    if((e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9) || (e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9))
+    {
+       verificarNumero = true;
+    }
+    else
+    {
+        if (e.KeyCode == Keys.Oemcomma || e.KeyCode == Keys.Decimal) verificarNumero = true; // <-- Liberar a virgula
+
+        if (e.KeyCode == Keys.Enter) verificarNumero = true; // <-- Liberar a tecla "enter"
+
+        if (e.KeyCode == Keys.Back) verificarNumero = true; // <-- Liberar a tecla "backspace"
+
+        int qtdVirgula = txtSalarioAtual.Text.Count(v => v == ','); // <-- Contar as virgulas
+
+        if (qtdVirgula > 1) verificarNumero = false; // <-- Verificar as virgulas
+    }
+
+    // Validação Final: A mensagem vai aparecer se um dos dois itens não foi atendido
+
+    if (verificarNumero == false)
+    {
+        MessageBox.Show("Somente números!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        txtSalarioAtual.Text = txtSalarioAtual.Text.Remove(txtSalarioAtual.Text.Length- 1);
+    }
+}
+
+private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+{
+    string url = "https://github.com/juletopi";
+    Process.Start(url);
+}
+```
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+</div>
+
+<br>
+
+> ### As Novas Janelas: Exemplo com Combo-box
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploComboBox-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/013093d0-94ee-4ff9-bdc6-f3a7edbe0f76" alt="JanelaExemplocomCombobox-pic" title="Janela de Exemplo com Combo-box" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppExemplo2](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/Formularios/FormExemploComboBox.cs)"*
+
+```c#
+public FormExemploComboBox()
+{
+    InitializeComponent();
+    txtPercDesconto.Visible = false; // <-- A caixa de texto "Perc(%) Desconto" ficará invisível
+    lblPercDesconto.Visible = false; // <-- O label "Perc(%) Desconto" ficará invisível
+}
+
+private void btnCalcular_Click(object sender, EventArgs e)
+{
+    int tipoCliente = cbTipoCliente.SelectedIndex;
+    double valorCompra = Convert.ToDouble(txtValorCompra.Text);
+    double valorDesconto = 0;
+
+    switch (tipoCliente)
+    {
+        case 0: // Cliente Diamante (25% de Desconto)
+            {
+                valorDesconto = valorCompra - valorCompra * 0.25;
+                lblResultado.Text = valorDesconto.ToString("C2");
+                break;
+            }
+
+        case 1: // Cliente Ouro (20% de Desconto)
+            {
+                valorDesconto = valorCompra - valorCompra * 0.20;
+                lblResultado.Text = valorDesconto.ToString("C2");
+                break;
+            }
+
+        case 2: // Cliente VIP (15% de Desconto)
+            {
+                valorDesconto = valorCompra - valorCompra * 0.15;
+                lblResultado.Text = valorDesconto.ToString("C2");
+                break;
+            }
+
+        case 3: // Cliente Comum (10% de Desconto)
+            {
+                valorDesconto = valorCompra - valorCompra * 0.10;
+                lblResultado.Text = valorDesconto.ToString("C2");
+                break;
+            }
+
+        case 4: // Cliente Aleatório (5% de Desconto)
+            {
+                valorDesconto = valorCompra - valorCompra * 0.05;
+                lblResultado.Text = valorDesconto.ToString("C2");
+                break;
+            }
+
+        default:
+            {
+                MessageBox.Show("Selecione um cliente!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                break;
+            }
+        }
+    }
+
+    private void btnNovo_Click(object sender, EventArgs e)
+    {
+        cbTipoCliente.SelectedIndex = -1;
+        txtPercDesconto.Clear();
+        lblResultado.Text = "R$ 0,00";
+        txtValorCompra.Clear();
+        txtPercDesconto.Visible = false; // <-- A caixa de texto "Perc(%) Desconto" ficará invisível
+        lblPercDesconto.Visible = false; // <-- O label "Perc(%) Desconto" ficará invisível
+    }
+
+    private void cbTipoCliente_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        int tipoCliente = cbTipoCliente.SelectedIndex;
+
+        if (tipoCliente == 4)
+        {
+            txtPercDesconto.Visible = true; // <-- A caixa de texto "Perc(%) Desconto" ficará visível
+            lblPercDesconto.Visible = true; // <-- O label "Perc(%) Desconto" ficará visível
+        }
+        else
+        {
+            txtPercDesconto.Visible = false; // <-- A caixa de texto "Perc(%) Desconto" ficará invisível
+            lblPercDesconto.Visible = false; // <-- O label "Perc(%) Desconto" ficará invisível
+        }
+    }
+
+   private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+   {
+       string url = "https://github.com/juletopi";
+       Process.Start(url);
+   }
+
+    private void txtValorCompra_KeyDown(object sender, KeyEventArgs e)
+    {
+        if (e.KeyCode == Keys.Enter) // <-- Vai para o campo seguinte
+        {
+            if (txtValorCompra.Text == " ") // <-- Verifica se o campo está vazio
+            {
+                MessageBox.Show("O campo está vazio!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtValorCompra.Select(); // <-- Volta ao campo
+            }
+            else
+            {
+                txtPercDesconto.Select();
+            }
+        }
+    }
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<br>
 <!-- THANK YOU, GOODBYE -->
 
 ----
