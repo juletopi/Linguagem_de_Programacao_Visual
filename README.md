@@ -705,7 +705,7 @@ private void txtSalarioAtual_KeyUp(object sender, KeyEventArgs e)
 
     if((e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9) || (e.KeyCode >= Keys.NumPad0 && e.KeyCode <= Keys.NumPad9))
     {
-       verificarNumero = true;
+        verificarNumero = true;
     }
     else
     {
