@@ -213,7 +213,7 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
   - Criar um conversor de Metros ⇆ Km
   - Criar um conversor de Hectares ⟶ Km²
 
-> ### O Menu Principal
+> ### 3.1 O Menu Principal
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaMenuPrincipaldeConversores-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -261,7 +261,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Conversor de Hectares ⇆ Alqueires
+> ### 3.2 As Novas Janelas: Conversor de Hectares ⇆ Alqueires
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectaresAlqueires-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -319,7 +319,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Conversor de Metros ⇆ Km
+> ### 3.3 As Novas Janelas: Conversor de Metros ⇆ Km
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorMetrosKilometros-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
 
 > [!NOTE]\
@@ -376,7 +376,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Conversor de Horas ⇆ Minutos
+> ### 3.4 As Novas Janelas: Conversor de Horas ⇆ Minutos
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHorasMinutos-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -433,7 +433,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Conversor de Hectares ⟶ Km²
+> ### 3.5 As Novas Janelas: Conversor de Hectares ⟶ Km²
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectKmQuadrado-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -485,7 +485,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
   - Diferentes formas de inserir message boxes
   - Eventos de click in e click out
 
-> ### O Menu de Opções de Interação
+> ### 4.1 O Menu de Opções de Interação
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaMenuPrincipaldeInteracoes-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/8218d73c-10ad-49e4-b3a3-40a63d057a3f" alt="JanelaMenudeOpcoesdeInteracao-pic" title="Menu de Opções de Interação" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -536,7 +536,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Exemplos de Alertas
+> ### 4.2 As Novas Janelas: Exemplos de Alertas
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaAlertasdeInteracao-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/36bca590-ad50-43dd-8d91-5eb47141c77a" alt="JanelaExemplosdeAlertas-pic" title="Janela de Exemplos de Alertas" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -597,7 +597,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Exemplo com Alerta
+> ### 4.3 As Novas Janelas: Exemplo com Alerta
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploAlerta-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6708975c-f2cb-48fa-a257-a405a75f568e" alt="JanelaExemplocomAlerta-pic" title="Janela de Exemplo com Alerta" style="width: 50%;"></a>
 
 > [!NOTE]\
@@ -650,7 +650,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Exemplo com Rótulo
+> ### 4.4 As Novas Janelas: Exemplo com Rótulo
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploRotuloANTES-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/3d38dcf7-e084-4b06-9338-0d95b432cb99" alt="JanelaExemplocomRotuloANTES-pic" title="Janela de Exemplo com Alteração de Rótulo (ANTES)" style="width: 40%;"></a>
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploRotuloDEPOIS-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/be57704a-b8ed-4c13-8a29-4b726441d081" alt="JanelaExemplocomRotuloDEPOIS-pic" title="Janela de Exemplo com Alteração de Rótulo (DEPOIS)" style="width: 40%;"></a>
 
@@ -746,7 +746,7 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 <br>
 
-> ### As Novas Janelas: Exemplo com Combo-box
+> ### 4.5 As Novas Janelas: Exemplo com Combo-box
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploComboBox-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/013093d0-94ee-4ff9-bdc6-f3a7edbe0f76" alt="JanelaExemplocomCombobox-pic" title="Janela de Exemplo com Combo-box" style="width: 50%;"></a>
 
 > [!NOTE]\
