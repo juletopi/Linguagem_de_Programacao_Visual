@@ -47,7 +47,20 @@
   </a>
 </div>
 
-<br>
+<!-- SUMMARY -->
+
+<h2 align="center">Sumário 🧾</h2>
+
+<div align="center">
+  <p align="center">
+    <a href="#-professor">Professor</a> &#xa0; | &#xa0;
+    <a href="#1-ferramentas-do-windows-forms-e-criando-uma-calculadora-simples">Conceitos Aprendidos 1</a> &#xa0; | &#xa0;
+    <a href="#2-criando-uma-calculadora-de-desconto">Conceitos Aprendidos 2</a> 
+  </p>
+    <a href="#3-criando-um-menu-de-seleção-para-abrir-novas-janelas">Conceitos Aprendidos 3</a> &#xa0; | &#xa0;
+    <a href="#4-exemplos-de-interação-com-o-usuário">Conceitos Aprendidos 4</a>
+  </p>
+</div>
 
 <div align="center">
   <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
