@@ -576,7 +576,7 @@ private void btnExemplo_Click(object sender, EventArgs e)
 
     if(resposta == DialogResult.Yes) 
     {
-       this.Close(); // <-- Fecha o programa
+        this.Close(); // <-- Fecha o programa
     }
 }
 
