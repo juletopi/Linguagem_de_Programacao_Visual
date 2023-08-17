@@ -213,8 +213,8 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
   - Criar um conversor de Metros ⇆ Km
   - Criar um conversor de Hectares ⟶ Km²
 
-> ### 3.1 O Menu Principal
-> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaMenuPrincipaldeConversores-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenuPrincipal-pic" title="Menu Principal" style="width: 50%;"></a>
+> ### 3.1 O Menu de Conversores
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaMenuPrincipaldeConversores-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/67d8238b-a908-45a4-b292-a5b62511f9f4" alt="JanelaMenudeConversores-pic" title="Menu de Conversores" style="width: 50%;"></a>
 
 > [!NOTE]\
 > *Retirado da aula de "[Menu_de_Forms_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/Form1.cs)"*
