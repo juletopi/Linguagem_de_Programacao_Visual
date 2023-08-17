@@ -63,7 +63,14 @@
     <a href="#33-as-novas-janelas-conversor-de-metros--km">Conceitos Aprendidos 3.3</a> &#xa0; | &#xa0;
     <a href="#34-as-novas-janelas-conversor-de-horas--minutos">Conceitos Aprendidos 3.4</a>
     </p>
-    <a href="#4-exemplos-de-interação-com-o-usuário">Conceitos Aprendidos 4</a>
+    <a href="#35-as-novas-janelas-conversor-de-hectares--km">Conceitos Aprendidos 3.5</a> &#xa0; | &#xa0;
+    <a href="#4-exemplos-de-interação-com-o-usuário">Conceitos Aprendidos 4</a> &#xa0; | &#xa0;
+    <a href="#41-o-menu-de-opções-de-interação">Conceitos Aprendidos 4.1</a> &#xa0; | &#xa0;
+    <a href="#42-as-novas-janelas-exemplos-de-alertas">Conceitos Aprendidos 4.2</a>
+  </p>
+    <a href="#43-as-novas-janelas-exemplo-com-alerta">Conceitos Aprendidos 4.3</a> &#xa0; | &#xa0;
+    <a href="#44-as-novas-janelas-exemplo-com-rótulo">Conceitos Aprendidos 4.4</a> &#xa0; | &#xa0;
+    <a href="#45-as-novas-janelas-exemplo-com-combo-box">Conceitos Aprendidos 4.5</a>
   </p>
 </div>
 
