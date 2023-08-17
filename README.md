@@ -55,9 +55,14 @@
   <p align="center">
     <a href="#-professor">Professor</a> &#xa0; | &#xa0;
     <a href="#1-ferramentas-do-windows-forms-e-criando-uma-calculadora-simples">Conceitos Aprendidos 1</a> &#xa0; | &#xa0;
-    <a href="#2-criando-uma-calculadora-de-desconto">Conceitos Aprendidos 2</a> 
+    <a href="#2-criando-uma-calculadora-de-desconto">Conceitos Aprendidos 2</a> &#xa0; | &#xa0;
+    <a href="#3-criando-um-menu-de-seleção-para-abrir-novas-janelas">Conceitos Aprendidos 3</a>
   </p>
-    <a href="#3-criando-um-menu-de-seleção-para-abrir-novas-janelas">Conceitos Aprendidos 3</a> &#xa0; | &#xa0;
+    <a href="#31-o-menu-de-conversores">Conceitos Aprendidos 3.1</a> &#xa0; | &#xa0;
+    <a href="#32-as-novas-janelas-conversor-de-hectares--alqueires">Conceitos Aprendidos 3.2</a> &#xa0; | &#xa0;
+    <a href="#33-as-novas-janelas-conversor-de-metros--km">Conceitos Aprendidos 3.3</a> &#xa0; | &#xa0;
+    <a href="#34-as-novas-janelas-conversor-de-horas--minutos">Conceitos Aprendidos 3.4</a>
+    </p>
     <a href="#4-exemplos-de-interação-com-o-usuário">Conceitos Aprendidos 4</a>
   </p>
 </div>
