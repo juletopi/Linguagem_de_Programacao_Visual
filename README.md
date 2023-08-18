@@ -888,5 +888,5 @@ private void btnCalcular_Click(object sender, EventArgs e)
 </div>
 
 <div align="center">
-  Feito com 🖤 por Juletopi
+  Feito com 🖤 por <a href="https://github.com/juletopi"> Juletopi</a>.
 </div>
