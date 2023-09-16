@@ -1,0 +1,26 @@
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\bin\Debug\AppAvaliacaoAtividade2.exe.config
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\bin\Debug\AppAvaliacaoAtividade2.exe
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\bin\Debug\AppAvaliacaoAtividade2.pdb
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.AssemblyReference.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.SuggestedBindingRedirects.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Form1.resources
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Properties.Resources.resources
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.GenerateResource.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.CoreCompileInputs.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.exe
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.pdb
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\bin\Debug\AppAvaliacaoAtividade2.exe.config
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\bin\Debug\AppAvaliacaoAtividade2.exe
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\bin\Debug\AppAvaliacaoAtividade2.pdb
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.AssemblyReference.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.AtividadeAvaliativa2.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Formularios.FormTrianguloEquilatero.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Properties.Resources.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.GenerateResource.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.csproj.CoreCompileInputs.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.exe
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.pdb
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Formularios.FormAreaTriangulos.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Formularios.FormTrianguloIsosceles.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade2\AppAvaliacaoAtividade2\obj\Debug\AppAvaliacaoAtividade2.Formularios.FormTrianguloRetangulo.resources

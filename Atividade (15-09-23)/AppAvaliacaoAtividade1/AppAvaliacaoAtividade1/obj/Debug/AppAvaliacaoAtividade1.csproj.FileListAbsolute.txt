@@ -1,0 +1,22 @@
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\bin\Debug\AppAvaliacaoAtividade1.exe.config
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\bin\Debug\AppAvaliacaoAtividade1.exe
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\bin\Debug\AppAvaliacaoAtividade1.pdb
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.AssemblyReference.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.SuggestedBindingRedirects.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.Form1.resources
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.Properties.Resources.resources
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.GenerateResource.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.CoreCompileInputs.cache
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.exe
+C:\Users\reina\OneDrive\Documentos\projetos aula\LPV 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.pdb
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\bin\Debug\AppAvaliacaoAtividade1.exe.config
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\bin\Debug\AppAvaliacaoAtividade1.exe
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\bin\Debug\AppAvaliacaoAtividade1.pdb
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.AssemblyReference.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.SuggestedBindingRedirects.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.AtividadeAvaliativa1.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.Properties.Resources.resources
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.GenerateResource.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.csproj.CoreCompileInputs.cache
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.exe
+C:\Users\julio\Downloads\ARQUIVOS - AVALIAÇÃO 1\AppAvaliacaoAtividade1\AppAvaliacaoAtividade1\obj\Debug\AppAvaliacaoAtividade1.pdb
