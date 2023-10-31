@@ -27,7 +27,7 @@
 <div align="center">
  
   • Este é um repositório com os conteúdos de Linguagem de Programação Visual, \
-  ministradas pelo professor [**Reinaldo Lima**](https://www.linkedin.com/in/reinaldo-lima-pereira-7b726856/), utilizando o **Visual Studio**, \
+  ministradas pelo professor [**Reinaldo Lima Pereira**](https://www.linkedin.com/in/reinaldo-lima-pereira-7b726856/), utilizando o **Visual Studio**, \
   a linguagem **CSharp** e a estrutura de interface do **Windows Forms** \
   como ferramentas de aprendizado.
  
@@ -95,7 +95,7 @@
   <img align="left" height="135px" width="135px" alt="ReinaldoLima-pic" title="Professor Reinaldo Lima" src="https://user-images.githubusercontent.com/76459155/221387561-1a565eeb-2f3a-4524-bccf-5d0fcd03927f.png">
 </a>
  
-  **Reinaldo Lima - Professor de Informática | Professor de Curso Técnico, Superior e Pós-Graduação** \
+  **Reinaldo Lima Pereira - Professor de Informática | Professor de Curso Técnico, Superior e Pós-Graduação** \
   [**IFRO Campus Ji-Paraná**](https://portal.ifro.edu.br/ji-parana) • <i>Atuando desde Março de 2016</i> \
   Linguagens & Tecnologias: `C#` • `Windows Forms` • `Java` • `Delphi` \
   Contato: **[reinaldo.pereira@ifro.local](mailto:reinaldo.pereira@ifro.local)**
