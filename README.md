@@ -70,7 +70,8 @@
   </p>
     <a href="#43-as-novas-janelas-exemplo-com-alerta">Conceitos Aprendidos 4.3</a> &#xa0; | &#xa0;
     <a href="#44-as-novas-janelas-exemplo-com-rótulo">Conceitos Aprendidos 4.4</a> &#xa0; | &#xa0;
-    <a href="#45-as-novas-janelas-exemplo-com-combo-box">Conceitos Aprendidos 4.5</a>
+    <a href="#45-as-novas-janelas-exemplo-com-combo-box">Conceitos Aprendidos 4.5</a> &#xa0; | &#xa0;
+    <a href="#-autor">Autor</a>
   </p>
 </div>
 
