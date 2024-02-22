@@ -925,8 +925,8 @@ private void btnCalcular_Click(object sender, EventArgs e)
 ----
 
 <div align="center">
-  <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/ObrigadoPorVisitar(Cinza)-pic.png">
-    <img src="https://user-images.githubusercontent.com/76459155/221390038-184b6e68-53bb-4f33-ba0b-2a6dd727b592.png" align="center" width="600" height="90" alt="ObrigadoPorVisitar(Cinza)-pic" title="Bye bye! :)" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Sue+Ellen+Francisco&size=40&duration=1&pause=99999&color=636363&center=true&vCenter=true&repeat=false&width=620&height=60&lines=Obrigado+por+visitar%2C+e+até+a+próxima!" alt="TypingGoodbye-SVG" title="Boas venturas e volte sempre que precisar! ;)"/>
   </a>
 </div>
 
