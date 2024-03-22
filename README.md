@@ -269,10 +269,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 3.2 As Novas Janelas: Conversor de Hectares ⇆ Alqueires
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectaresAlqueires-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/410fa54c-d2a1-4782-95cd-1ce67659fac5" alt="JanelaConversorHectAlque-pic" title="Janela de Conversor de Hectares ⇆ Alqueires" style="width: 50%;"></a>
@@ -327,10 +325,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 3.3 As Novas Janelas: Conversor de Metros ⇆ Km
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorMetrosKilometros-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/86032714-6a3a-4f17-b724-b03bcaf6c7cd" alt="JanelaConversorMetrosKm" title="Janela de Conversor de Metros ⇆ Km" style="width: 50%;"></a> 
@@ -384,10 +380,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 3.4 As Novas Janelas: Conversor de Horas ⇆ Minutos
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHorasMinutos-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6ca87344-998b-4359-80b6-8e0ffd92cbc6" alt="JanelaConversorHorasMinutos-pic" title="Janela de Conversor de Horas ⇆ Minutos" style="width: 50%;"></a>
@@ -441,10 +435,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 3.5 As Novas Janelas: Conversor de Hectares ⟶ Km²
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Menu_de_Forms_WinForms/GUI%20Images/JanelaConversorHectKmQuadrado-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/659a4b0f-8c38-4f06-b54b-dd95402be0ae" alt="JanelaConversorHectKmQuadrado-pic" title="Janela de Conversor de Hectares ⟶ Km²" style="width: 50%;"></a>
@@ -544,10 +536,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 4.2 As Novas Janelas: Exemplos de Alertas
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaAlertasdeInteracao-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/36bca590-ad50-43dd-8d91-5eb47141c77a" alt="JanelaExemplosdeAlertas-pic" title="Janela de Exemplos de Alertas" style="width: 50%;"></a>
@@ -605,10 +595,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 4.3 As Novas Janelas: Exemplo com Alerta
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploAlerta-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/6708975c-f2cb-48fa-a257-a405a75f568e" alt="JanelaExemplocomAlerta-pic" title="Janela de Exemplo com Alerta" style="width: 50%;"></a>
@@ -658,10 +646,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 4.4 As Novas Janelas: Exemplo com Rótulo
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploRotuloANTES-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/3d38dcf7-e084-4b06-9338-0d95b432cb99" alt="JanelaExemplocomRotuloANTES-pic" title="Janela de Exemplo com Alteração de Rótulo (ANTES)" style="width: 40%;"></a>
@@ -754,10 +740,8 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 </div>
 
 <div align="center">
-  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=1&section=header&%20render">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
 </div>
-
-<br>
 
 > ### 4.5 As Novas Janelas: Exemplo com Combo-box
 > <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppExemplo2/GUI%20Images/JanelaExemploComboBox-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/assets/76459155/013093d0-94ee-4ff9-bdc6-f3a7edbe0f76" alt="JanelaExemplocomCombobox-pic" title="Janela de Exemplo com Combo-box" style="width: 50%;"></a>
@@ -871,6 +855,227 @@ private void btnCalcular_Click(object sender, EventArgs e)
             }
         }
     }
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+### 5. Simulador de Média
+
+<div align="left">
+ 
+  Nesta aula foram aprendidos:
+  - Criar um Simulador de Média
+  - Criar um Visualizador de Nota Mínima
+  - Criar um Visualizador de Exame Final
+
+> ### 5.1 SimuladorMedia: Janela de Menu Principal
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaSimuladorMediaMenuPrincipal-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaSimuladorMediaMenuPrincipal-pic.PNG" alt="JanelaSimuladorMediaMenuPrincipal-pic" title="Janela de Menu Principal" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[Atividade (14-03-24)](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Atividade%20(14-03-24)/SimuladorMedia/Form1.cs)"*
+
+```c#
+using SimuladorMedia.Formularios;
+
+namespace SimuladorMedia
+{
+    public partial class FormSimuladorMedia : Form
+    {
+        public FormSimuladorMedia()
+        {
+            InitializeComponent();
+        }
+
+        private void btSimularMedia_Click(object sender, EventArgs e)
+        {
+            FormSimularMedia form = new FormSimularMedia();
+            form.ShowDialog();
+        }
+
+        private void btNotaMinima_Click(object sender, EventArgs e)
+        {
+            FormNotaMinima form = new FormNotaMinima();
+            form.ShowDialog();
+        }
+
+        private void btVerificarMedia_Click(object sender, EventArgs e)
+        {
+            FormExameFinal form = new FormExameFinal();
+            form.ShowDialog();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 5.2 SimuladorMedia: Janela de Simulador de Média
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaSimuladorMedia-pic.PNG?raw=true"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaSimuladorMedia-pic.PNG?raw=true" alt="JanelaSimuladorMedia-pic" title="Janela de Simulador de Média" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[Atividade (14-03-24)](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Atividade%20(14-03-24)/SimuladorMedia/Formularios/FormSimularMedia.cs)"*
+
+```c#
+private void btVerificarMedia_Click(object sender, EventArgs e)
+{
+    double nota1 = 0, nota2 = 0;
+    double resultado;
+    string nome;
+
+    try
+    {
+        nota1 = Convert.ToDouble(txtNota1.Text);
+        nota2 = Convert.ToDouble(txtNota2.Text);
+    }
+    catch (FormatException)
+    {
+        MessageBox.Show("Por favor, insira apenas números válidos nas notas.", "Erro de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        return;
+    }
+
+    nome = txtNomeAluno.Text;
+
+    resultado = (nota1 + nota2) / 2;
+
+    lblResultadoNota.Text = resultado.ToString();
+
+    if (resultado >= 60)
+    {
+        lblResultadoNota.Text = $"A sua nota foi de {resultado} pontos.";
+        lblAprovadoReprovado.Text = $"{nome}, você foi aprovado(a)!";
+    }
+    else
+    {
+        lblResultadoNota.Text = $"A sua nota foi de {resultado} pontos.";
+        lblAprovadoReprovado.Text = $"{nome}, você foi reprovado(a)!";
+    }
+}
+
+private void btLimpar_Click(object sender, EventArgs e)
+{
+    txtNomeAluno.Clear();
+    txtNota1.Clear();
+    txtNota2.Clear();
+    lblResultadoNota.Text = "";
+    lblAprovadoReprovado.Text = "";
+
+    txtNomeAluno.Select();
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 5.3 SimuladorMedia: Janela de Nota Mínima
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaNotaMinima-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaNotaMinima-pic.PNG" alt="JanelaNotaMínima-pic" title="Janela de Nota Mínima" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[Atividade (14-03-24)](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Atividade%20(14-03-24)/SimuladorMedia/Formularios/FormNotaMinima.cs)"*
+
+```c#
+private void btVerificarNotaMinima_Click(object sender, EventArgs e)
+{
+    double mediaFinal = 0;
+    double notaNecessaria = 0;
+    string nome;
+
+    mediaFinal = Convert.ToDouble(txtMediaFinal.Text);
+    nome = txtNomeAluno.Text;
+
+    notaNecessaria = (500 - 6 * mediaFinal) / 4;
+
+    if (notaNecessaria <= 0)
+    {
+        lblNotaParaPassar.Text = $"Aluno(a) {nome}, você está \naprovado(a), não é necessário \nmais nota.";
+    }
+        else
+    {
+        lblNotaParaPassar.Text = $"Aluno(a) {nome}, \nvocê precisa de {notaNecessaria} pontos \npara passar.";
+    }
+}
+
+private void btLimpar_Click(object sender, EventArgs e)
+{
+    txtNomeAluno.Clear();
+    txtMediaFinal.Clear();
+    lblNotaParaPassar.Text = "";
+
+    txtNomeAluno.Select();
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 5.4 SimuladorMedia: Janela de Exame Final
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaExameFinal-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaExameFinal-pic.PNG" alt="JanelaExameFinal-pic" title="Janela de Exame Final" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[Atividade (14-03-24)](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Atividade%20(14-03-24)/SimuladorMedia/Formularios/FormExameFinal.cs)"*
+
+```c#
+private void btVerificarMedia_Click(object sender, EventArgs e)
+{
+    double MediaFinal = 0.00;
+    double NotaAposExame = 0.00;
+    string nome;
+
+    try
+    {
+        MediaFinal = double.Parse(txtMediaFinal.Text);
+        NotaAposExame = double.Parse(txtExameFinal.Text);
+    }
+    catch (FormatException)
+    {
+        MessageBox.Show("Por favor, insira apenas números válidos nas notas.", "Erro de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        return;
+    }
+    
+    nome = txtNomeAluno.Text;
+
+    NotaAposExame = (6 * MediaFinal + 4 * NotaAposExame) / 10;
+
+    if (NotaAposExame >= 50)
+    {
+        lblAprovadoReprovado.Text = $"Parabéns {nome}! \nVocê foi aprovado(a)!";
+    }
+    else
+    {
+        lblAprovadoReprovado.Text = $"Aluno(a) {nome}, você \nnão foi aprovado(a).";
+    }
+}
+
+private void btLimpar_Click(object sender, EventArgs e)
+{
+    txtNomeAluno.Clear();
+    txtMediaFinal.Clear();
+    txtExameFinal.Clear();
+    lblAprovadoReprovado.Text = "";
+
+    txtNomeAluno.Select();
+}
 ```
 
 <div align="left">
