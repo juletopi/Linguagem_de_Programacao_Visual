@@ -1,0 +1,14 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\bin\Debug\net8.0\AppExemploString.exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\bin\Debug\net8.0\AppExemploString.deps.json
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\bin\Debug\net8.0\AppExemploString.runtimeconfig.json
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\bin\Debug\net8.0\AppExemploString.dll
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\bin\Debug\net8.0\AppExemploString.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.AssemblyInfoInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.AssemblyInfo.cs
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.dll
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\refint\AppExemploString.dll
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\AppExemploString.genruntimeconfig.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Exemplos\AppExemploString\obj\Debug\net8.0\ref\AppExemploString.dll
