@@ -79,6 +79,7 @@
     <a href="#54-simuladormedia-janela-de-exame-final">Conceitos Aprendidos 5.4</a>
   </p>
     <a href="#6-calculadora-de-juros">Conceitos Aprendidos 6</a> &#xa0; | &#xa0;
+    <a href="#7-exemplos-de-formatação-de-caracteres">Conceitos Aprendidos 7</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>
