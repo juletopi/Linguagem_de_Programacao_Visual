@@ -71,6 +71,14 @@
     <a href="#43-as-novas-janelas-exemplo-com-alerta">Conceitos Aprendidos 4.3</a> &#xa0; | &#xa0;
     <a href="#44-as-novas-janelas-exemplo-com-rótulo">Conceitos Aprendidos 4.4</a> &#xa0; | &#xa0;
     <a href="#45-as-novas-janelas-exemplo-com-combo-box">Conceitos Aprendidos 4.5</a> &#xa0; | &#xa0;
+    <a href="#5-simulador-de-média">Conceitos Aprendidos 5</a>
+  </p>
+    <a href="#51-simuladormedia-janela-de-menu-principal">Conceitos Aprendidos 5.1</a> &#xa0; | &#xa0;
+    <a href="#52-simuladormedia-janela-de-simulador-de-média">Conceitos Aprendidos 5.2</a> &#xa0; | &#xa0;
+    <a href="#53-simuladormedia-janela-de-nota-mínima">Conceitos Aprendidos 5.3</a> &#xa0; | &#xa0;
+    <a href="#54-simuladormedia-janela-de-exame-final">Conceitos Aprendidos 5.4</a>
+  </p>
+    <a href="#6-calculadora-de-juros">Conceitos Aprendidos 6</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>
