@@ -1,0 +1,10 @@
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\bin\Debug\Atividade (28-03-24).exe.config
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\bin\Debug\Atividade (28-03-24).exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\bin\Debug\Atividade (28-03-24).pdb
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade (28-03-24).csproj.AssemblyReference.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade__28_03_24_.FormSimulacaoComissao.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade__28_03_24_.Properties.Resources.resources
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade (28-03-24).csproj.GenerateResource.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade (28-03-24).csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade (28-03-24).exe
+C:\Users\julio\source\repos\Visual Studio\Windows Forms\Atividade (28-03-24)\obj\Debug\Atividade (28-03-24).pdb
