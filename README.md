@@ -80,6 +80,7 @@
   </p>
     <a href="#6-calculadora-de-juros">Conceitos Aprendidos 6</a> &#xa0; | &#xa0;
     <a href="#7-exemplos-de-formatação-de-caracteres">Conceitos Aprendidos 7</a> &#xa0; | &#xa0;
+    <a href="#8-simulador-de-comissão-da-concessionária-ômega">Conceitos Aprendidos 8</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>
