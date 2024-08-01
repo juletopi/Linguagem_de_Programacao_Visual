@@ -98,8 +98,6 @@
 
 <!-- ABOUT TEACHER -->
 
-<div align="left">
-
 ## 👨‍🏫 Professor:
 
 <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/ReinaldoLima-pic.png">
@@ -110,8 +108,6 @@
   [**IFRO Campus Ji-Paraná**](https://portal.ifro.edu.br/ji-parana) • <i>Atuando desde Março de 2016</i> \
   Linguagens & Tecnologias: `C#` • `Windows Forms` • `Java` • `Delphi` \
   Contato: **[reinaldo.pereira@ifro.local](mailto:reinaldo.pereira@ifro.local)**
- 
-</div>
 
 <br>
 
@@ -129,14 +125,11 @@
 
 > [!NOTE]\
 > *Retirado da aula de "[Calculadora_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calculadora_WinForms/Form1.cs)"*
-
-<div align="left">
  
   Nesta aula foram aprendidos:
   - Conceitos básicos da ferramenta do Windows Forms
   - Criação labels, text-boxes e buttons com a Caixa de Ferramentas
   - Algoritmos simples de Soma, Subtração, Multiplicação e Divisão
-</div>
 
 ```c#
 private void btnSomar_Click(object sender, EventArgs e)
@@ -184,14 +177,10 @@ private void btnLimpar_Click(object sender, EventArgs e)
 
 > [!NOTE]\
 > *Retirado da aula de "[Calc_de_Desconto_WinForms](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Calc_de_Desconto_WinForms/Form1.cs)"*
-
-<div align="left">
  
   Nesta aula foram aprendidos:
   - Criação labels, text-boxes e buttons com a Caixa de Ferramentas
   - Algoritmo matemático simples de aplicação de desconto em porcentagem
- 
-</div>
 
 ```c#
 private void btnCalcularDesconto_Click(object sender, EventArgs e)
@@ -226,8 +215,6 @@ private void btnCalcularDesconto_Click(object sender, EventArgs e)
 
 ### 3. Criando um Menu de Seleção para abrir Novas Janelas
 
-<div align="left">
- 
   Nesta aula foram aprendidos:
   - Criação de novos formulários para criar novas janelas para acessar através dos botões
   - Linkar o acesso de uma janela a outra através do código
@@ -480,8 +467,6 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
     Process.Start(url);
 }
 ```
- 
-</div>
 
 <div align="left">
   <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
@@ -493,8 +478,6 @@ private void linkJuletopi_LinkClicked(object sender, LinkLabelLinkClickedEventAr
 
 ### 4. Exemplos de Interação com o Usuário
 
-<div align="left">
- 
   Nesta aula foram aprendidos:
   - Message boxes para interação com o usuário
   - Diferentes formas de inserir message boxes
@@ -876,8 +859,6 @@ private void btnCalcular_Click(object sender, EventArgs e)
 </div>
 
 ### 5. Simulador de Média
-
-<div align="left">
  
   Conjunto de forms que fazem parte da 1º avaliação da disciplina. Neste, foram aprendidos:
   - Criação de um forms com um menu principal e mais 3 forms para "Simular Média", "Verificar Nota Mínima" e "Verificar Exame Final".
@@ -1101,12 +1082,8 @@ private void btLimpar_Click(object sender, EventArgs e)
 > [!NOTE]\
 > *Retirado da aula de "[Atividade (14-03-24)](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Atividade%20(14-03-24)/CalculadoraJuros/Form1.cs)"*
 
-<div align="left">
- 
   Form criado na 1º avaliação da disciplina. Neste, foram aprendidos:
   - Construção de um forms complexo com seleção única de resultado dentre diversos campos disponíveis.
- 
-</div>
 
 ```c#
 namespace CalculadoraJuros
@@ -1357,8 +1334,6 @@ namespace CalculadoraJuros
 > [!NOTE]\
 > *Retirado da aula de "[AppExemploString](https://github.com/juletopi/Linguagem_de_Programacao_Visual/tree/main/AppExemploString)"*
 
-<div align="left">
- 
   Nesta aula foram aprendidos:
   - Substituição de caracteres e palavras em uma string usando Replace.
   - Concatenação de strings usando o operador +.
@@ -1367,9 +1342,6 @@ namespace CalculadoraJuros
   - Comparação de strings usando Equals.
   - Manipulação de partes de uma string usando Substring.
   - Separação e formatação de informações em uma string usando Split.
-
- 
-</div>
 
 ```c#
 ﻿namespace AppExemploString
@@ -1523,13 +1495,9 @@ namespace CalculadoraJuros
 
 > [!NOTE]\
 > *Retirado da aula de "[Atividade (28-03-24)](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Atividade%20(28-03-24)/Form1.cs)"*
-
-<div align="left">
  
   Form criado na 2º avaliação da disciplina. Neste, foram aprendidos:
   - Criação de um forms complexo com um múltiplas mudanças dinâmicas de características visuais para melhor interatividade com o usuário.
-
-</div>
 
 ```c#
 namespace Atividade__28_03_24_
@@ -1727,6 +1695,7 @@ namespace Atividade__28_03_24_
     }
 }
 ```
+
 <div align="left">
   <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
 </div>
