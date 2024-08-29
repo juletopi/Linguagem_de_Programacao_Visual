@@ -1700,6 +1700,773 @@ namespace Atividade__28_03_24_
   <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
 </div>
 
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+### 9. GeraSorte - Gerador de Números da Sorte
+ 
+  Conjunto de forms que fazem parte da 2º avaliação da disciplina. Neste, foram aprendidos:
+  - Criação de um forms com um menu principal e mais 6 forms de geração de números da sorte pra diferentes lotéricas: "LotoFácil", "LotoMania", "MegaSena", "Quina", "SuperSete" e "Dia de Sorte".
+
+> ### 9.1 GeraSorte: Janela de Menu Principal
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaMenudeOpcoesGeraSorte-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaMenudeOpcoesGeraSorte-pic.PNG" alt="JanelaMenudeOpcoesGeraSorte-pic" title="Janela de Menu Principal" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Form1.cs)"*
+
+```c#
+using AppLoterias.Formularios;
+
+namespace AppLoterias
+{
+    public partial class FormMenuPrincipal : Form
+    {
+        public FormMenuPrincipal()
+        {
+            InitializeComponent();
+        }
+
+        private void btnLotoFacil_Click(object sender, EventArgs e)
+        {
+            FormLotoFacil form = new FormLotoFacil();
+            form.ShowDialog();
+        }
+
+        private void btnMegaSena_Click(object sender, EventArgs e)
+        {
+            FormMegaSena form = new FormMegaSena();
+            form.ShowDialog();
+        }
+
+        private void btnLotomania_Click(object sender, EventArgs e)
+        {
+            FormLotoMania form = new FormLotoMania();
+            form.ShowDialog();
+        }
+
+        private void btnQuina_Click(object sender, EventArgs e)
+        {
+            FormQuina form = new FormQuina();
+            form.ShowDialog();
+        }
+
+        private void btnDiaDeSorte_Click(object sender, EventArgs e)
+        {
+            FormDiaDeSorte form = new FormDiaDeSorte();
+            form.ShowDialog();
+        }
+
+        private void btnSuperSete_Click(object sender, EventArgs e)
+        {
+            FormSuperSete form = new FormSuperSete();
+            form.ShowDialog();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 9.2 GeraSorte: Janela da LotoFácil
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteLotoFacil-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteLotoFacil-pic.PNG" alt="JanelaGeraSorteLotoFacil-pic" title="Janela da LotoFácil" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Formularios/FormLotoFacil.cs)"*
+
+```c#
+namespace AppLoterias.Formularios
+{
+    public partial class FormLotoFacil : Form
+    {
+        public List<int> NumerosDaSorte = new List<int>();
+        public FormLotoFacil()
+        {
+            InitializeComponent();
+        }
+
+        /*
+          LotoFácil
+
+          Números envolvidos: 15 números sorteados entre 1 e 25.
+          Classificação de chances de ganhar:
+            - 7 pares e 8 ímpares: "MUITO ALTO!"
+            - 8 pares e 7 ímpares: "ALTO!"
+            - 6 pares e 9 ímpares: "ALTO!"
+            - 9 pares e 6 ímpares: "MÉDIO!"
+            - 5 pares e 10 ímpares: "MÉDIO!"
+            - Outras combinações: "BAIXO!"
+        */
+
+        public void Classificacao(int par, int impar)
+        {
+            lblPar.Text = "Pares: " + par;
+            lblImpar.Text = "Ímpares: " + impar;
+
+            // Estatísticas
+            if (impar == 8 && par == 7)
+            {
+                lblClass.Text = "MUITO ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+
+            if (impar == 7 && par == 8)
+            {
+                lblClass.Text = "ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+
+            if (impar == 9 && par == 6)
+            {
+                lblClass.Text = "MÉDIO!";
+                lblClass.ForeColor = Color.Orange;
+            }
+
+            if (impar == 6 && par == 9)
+            {
+                lblClass.Text = "BAIXO!";
+                lblClass.ForeColor = Color.OrangeRed;
+            }
+
+            if (impar <= 5 && par >= 10)
+            {
+                lblClass.Text = "MUITO BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+
+            if (impar >= 10 && par <= 5)
+            {
+                lblClass.Text = "MUITO BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+        }
+
+        public void GerarNumeros()
+        {
+            int numero = 0;
+            int contador = 0;
+            int qtdPar = 0;
+            int qtdImpar = 0;
+            Random radNum = new Random();
+            NumerosDaSorte.Clear();
+
+            while (contador < 15) // LotoFácil são 15 números
+            {
+                numero = radNum.Next(1, 26); // LotoFácil tem 25 números
+                if (NumerosDaSorte.Contains(numero) == false)
+                {
+                    NumerosDaSorte.Add(numero);
+                    if (numero % 2 == 0) qtdPar++;
+                    if (numero % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+
+                NumerosDaSorte = NumerosDaSorte.OrderBy(num => num).ToList();
+                Classificacao(qtdPar, qtdImpar);
+                dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+            }
+        }
+
+        private void btnGerarNumeros_Click(object sender, EventArgs e)
+        {
+            GerarNumeros();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            NumerosDaSorte.Clear();
+            lblPar.Text = "Pares: 0";
+            lblImpar.Text = "Ímpares: 0";
+            lblClass.Text = "Classificação";
+            lblClass.ForeColor = Color.Black;
+            dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new {Numero = Numeros}).ToList();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 9.3 GeraSorte: Janela da LotoMania
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteLotoMania-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteLotoMania-pic.PNG" alt="JanelaGeraSorteLotoMania-pic" title="Janela da LotoMania" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Formularios/FormLotoMania.cs)"*
+
+```c#
+namespace AppLoterias.Formularios
+{
+    public partial class FormLotoMania : Form
+    {
+        public List<int> NumerosDaSorte = new List<int>();
+        public FormLotoMania()
+        {
+            InitializeComponent();
+        }
+
+        /*
+          LotoMania
+
+          Números envolvidos: 50 números sorteados entre 0 e 99.
+          Classificação de chances de ganhar:
+            - 25 pares e 25 ímpares: "MUITO ALTO!"
+            - 24 pares e 26 ímpares: "ALTO!"
+            - 26 pares e 24 ímpares: "ALTO!"
+            - 23 pares e 27 ímpares: "MÉDIO!"
+            - 27 pares e 23 ímpares: "MÉDIO!"
+            - Outras combinações: "BAIXO!"
+        */
+
+        public void Classificacao(int par, int impar)
+        {
+            lblPar.Text = "Pares: " + par;
+            lblImpar.Text = "Ímpares: " + impar;
+
+            // Estatísticas
+            if (par == 25 && impar == 25)
+            {
+                lblClass.Text = "MUITO ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if ((par == 26 && impar == 24) || (par == 24 && impar == 26))
+            {
+                lblClass.Text = "ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if ((par == 23 && impar == 27) || (par == 27 && impar == 23))
+            {
+                lblClass.Text = "MÉDIO!";
+                lblClass.ForeColor = Color.Orange;
+            }
+            else
+            {
+                lblClass.Text = "BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+        }
+
+        public void GerarNumeros()
+        {
+            int numero = 0;
+            int contador = 0;
+            int qtdPar = 0;
+            int qtdImpar = 0;
+            Random radNum = new Random();
+            NumerosDaSorte.Clear();
+
+            while (contador < 50) // Lotomania são 50 números
+            {
+                numero = radNum.Next(0, 100); // Lotomania tem números de 0 a 99
+                if (NumerosDaSorte.Contains(numero) == false)
+                {
+                    NumerosDaSorte.Add(numero);
+                    if (numero % 2 == 0) qtdPar++;
+                    if (numero % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+
+                NumerosDaSorte = NumerosDaSorte.OrderBy(num => num).ToList();
+                Classificacao(qtdPar, qtdImpar);
+                dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+            }
+        }
+
+        private void btnGerarNumeros_Click(object sender, EventArgs e)
+        {
+            GerarNumeros();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            NumerosDaSorte.Clear();
+            lblPar.Text = "Pares: 0";
+            lblImpar.Text = "Ímpares: 0";
+            lblClass.Text = "Classificação";
+            lblClass.ForeColor = Color.Black;
+            dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 9.4 GeraSorte: Janela da MegaSena
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteMegaSena-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteMegaSena-pic.PNG" alt="JanelaGeraSorteMegaSena-pic" title="Janela da MegaSena" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Formularios/FormMegaSena.cs)"*
+
+```c#
+namespace AppLoterias.Formularios
+{
+    public partial class FormMegaSena : Form
+    {
+        public List<int> NumerosDaSorte = new List<int>();
+        public FormMegaSena()
+        {
+            InitializeComponent();
+        }
+
+        /*
+          MegaSena
+
+          Números envolvidos: 6 números sorteados entre 1 e 60.
+          Classificação de chances de ganhar:
+            - 3 pares e 3 ímpares: "MUITO ALTO!"
+            - 4 pares e 2 ímpares: "ALTO!"
+            - 2 pares e 4 ímpares: "MÉDIO!"
+            - 5 pares e 1 ímpar: "BAIXO!"
+            - 1 par e 5 ímpares: "MUITO BAIXO!"
+        */
+
+        public void Classificacao(int par, int impar)
+        {
+            lblPar.Text = "Pares: " + par;
+            lblImpar.Text = "Ímpares: " + impar;
+
+            // Estatísticas
+            if (impar == 3 && par == 3)
+            {
+                lblClass.Text = "MUITO ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+
+            if (impar == 4 && par == 2)
+            {
+                lblClass.Text = "ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+
+            if (impar == 2 && par == 4)
+            {
+                lblClass.Text = "MÉDIO!";
+                lblClass.ForeColor = Color.Orange;
+            }
+
+            if (impar == 5 && par == 1)
+            {
+                lblClass.Text = "BAIXO!";
+                lblClass.ForeColor = Color.OrangeRed;
+            }
+
+            if (impar == 1 && par == 5)
+            {
+                lblClass.Text = "MUITO BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+        }
+
+        public void GerarNumeros()
+        {
+            int numero = 0;
+            int contador = 0;
+            int qtdPar = 0;
+            int qtdImpar = 0;
+            Random radNum = new Random();
+            NumerosDaSorte.Clear();
+
+            while (contador < 6) // Mega Sena são 6 números
+            {
+                numero = radNum.Next(1, 61); // Mega Sena tem 60 números
+                if (NumerosDaSorte.Contains(numero) == false)
+                {
+                    NumerosDaSorte.Add(numero);
+                    if (numero % 2 == 0) qtdPar++;
+                    if (numero % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+
+                NumerosDaSorte = NumerosDaSorte.OrderBy(num => num).ToList();
+                Classificacao(qtdPar, qtdImpar);
+                dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+            }
+        }
+
+        private void btnGerarNumeros_Click_1(object sender, EventArgs e)
+        {
+            GerarNumeros();
+        }
+
+        private void btnLimpar_Click_1(object sender, EventArgs e)
+        {
+            NumerosDaSorte.Clear();
+            lblPar.Text = "Pares: 0";
+            lblImpar.Text = "Ímpares: 0";
+            lblClass.Text = "Classificação";
+            lblClass.ForeColor = Color.Black;
+            dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 9.5 GeraSorte: Janela da Quina
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteQuina-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteQuina-pic.PNG" alt="JanelaGeraSorteQuina-pic" title="Janela da Quina" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Formularios/FormQuina.cs)"*
+
+```c#
+namespace AppLoterias.Formularios
+{
+    public partial class FormQuina : Form
+    {
+        public List<int> NumerosDaSorte = new List<int>();
+        public FormQuina()
+        {
+            InitializeComponent();
+        }
+
+        /*
+          Quina
+          
+          Números envolvidos: 5 números sorteados entre 1 e 80.
+          Classificação de chances de ganhar:
+            - 3 pares e 2 ímpares: "MUITO ALTO!"
+            - 2 pares e 3 ímpares: "ALTO!"
+            - 4 pares e 1 ímpar: "MÉDIO!"
+            - 1 par e 4 ímpares: "BAIXO!"
+            - 5 pares ou 5 ímpares: "MUITO BAIXO!"
+        */
+
+        private void btnGerarNumeros_Click(object sender, EventArgs e)
+        {
+            GerarNumeros();
+        }
+
+        public void Classificacao(int par, int impar)
+        {
+            lblPar.Text = "Pares: " + par;
+            lblImpar.Text = "Ímpares: " + impar;
+
+            // Estatísticas
+            if (par == 2 && impar == 3)
+            {
+                lblClass.Text = "MUITO ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if (par == 3 && impar == 2)
+            {
+                lblClass.Text = "ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if (par == 4 && impar == 1)
+            {
+                lblClass.Text = "MÉDIO!";
+                lblClass.ForeColor = Color.Orange;
+            }
+            else if (par == 1 && impar == 4)
+            {
+                lblClass.Text = "BAIXO!";
+                lblClass.ForeColor = Color.OrangeRed;
+            }
+            else
+            {
+                lblClass.Text = "MUITO BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+        }
+
+        public void GerarNumeros()
+        {
+            int numero = 0;
+            int contador = 0;
+            int qtdPar = 0;
+            int qtdImpar = 0;
+            Random radNum = new Random();
+            NumerosDaSorte.Clear();
+
+            while (contador < 5) // Quina são 5 números
+            {
+                numero = radNum.Next(1, 81); // Quina tem números de 1 a 80
+                if (NumerosDaSorte.Contains(numero) == false)
+                {
+                    NumerosDaSorte.Add(numero);
+                    if (numero % 2 == 0) qtdPar++;
+                    if (numero % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+
+                NumerosDaSorte = NumerosDaSorte.OrderBy(num => num).ToList();
+                Classificacao(qtdPar, qtdImpar);
+                dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            NumerosDaSorte.Clear();
+            lblPar.Text = "Pares: 0";
+            lblImpar.Text = "Ímpares: 0";
+            lblClass.Text = "Classificação";
+            lblClass.ForeColor = Color.Black;
+            dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 9.6 GeraSorte: Janela da SuperSete
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteSuperSete-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteSuperSete-pic.PNG" alt="JanelaGeraSorteSuperSete-pic" title="Janela da SuperSete" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Formularios/FormSuperSete.cs)"*
+
+```c#
+namespace AppLoterias.Formularios
+{
+    public partial class FormSuperSete : Form
+    {
+        public List<int> NumerosDaSorte = new List<int>();
+        public FormSuperSete()
+        {
+            InitializeComponent();
+        }
+
+        /*
+          SuperSete
+
+          Números envolvidos: 7 números sorteados entre 1 e 9.
+          Classificação de chances de ganhar:
+            - 4 pares e 3 ímpares: "MUITO ALTO!"
+            - 3 pares e 4 ímpares: "ALTO!"
+            - 5 pares e 2 ímpares: "MÉDIO!"
+            - 2 pares e 5 ímpares: "MÉDIO!"
+            - 6 pares e 1 ímpar: "BAIXO!"
+            - 1 par e 6 ímpares: "BAIXO!"
+        */
+
+        private void btnGerarNumeros_Click(object sender, EventArgs e)
+        {
+            GerarNumeros();
+        }
+
+        public void Classificacao(int par, int impar)
+        {
+            lblPar.Text = "Pares: " + par;
+            lblImpar.Text = "Ímpares: " + impar;
+
+            // Estatísticas
+            if (par == 3 && impar == 4)
+            {
+                lblClass.Text = "MUITO ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if (par == 4 && impar == 3)
+            {
+                lblClass.Text = "ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if (par == 2 && impar == 5)
+            {
+                lblClass.Text = "MÉDIO!";
+                lblClass.ForeColor = Color.Orange;
+            }
+            else if (par == 5 && impar == 2)
+            {
+                lblClass.Text = "BAIXO!";
+                lblClass.ForeColor = Color.OrangeRed;
+            }
+            else
+            {
+                lblClass.Text = "MUITO BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+        }
+
+        public void GerarNumeros()
+        {
+            int numero = 0;
+            int contador = 0;
+            int qtdPar = 0;
+            int qtdImpar = 0;
+            Random radNum = new Random();
+            NumerosDaSorte.Clear();
+
+            while (contador < 7) // SuperSete são 7 números
+            {
+                numero = radNum.Next(0, 10); // SuperSete tem números de 0 a 9
+                if (NumerosDaSorte.Contains(numero) == false)
+                {
+                    NumerosDaSorte.Add(numero);
+                    if (numero % 2 == 0) qtdPar++;
+                    if (numero % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+
+                NumerosDaSorte = NumerosDaSorte.OrderBy(num => num).ToList();
+                Classificacao(qtdPar, qtdImpar);
+                dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+            }
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            NumerosDaSorte.Clear();
+            lblPar.Text = "Pares: 0";
+            lblImpar.Text = "Ímpares: 0";
+            lblClass.Text = "Classificação";
+            lblClass.ForeColor = Color.Black;
+            dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
+<div align="center">
+  <img width=100% align="center" src="https://capsule-render.vercel.app/api?type=rect&color=636363&height=4&section=header&%20render">
+</div>
+
+> ### 9.7 GeraSorte: Janela da Dia de Sorte
+> <a href="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteDiaDeSorte-pic.PNG"><img align="center" src="https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/Assets/Images/JanelaGeraSorteDiaDeSorte-pic.PNG" alt="JanelaGeraSorteDiaDeSorte-pic" title="Janela da Dia de Sorte" style="width: 50%;"></a>
+
+> [!NOTE]\
+> *Retirado da aula de "[AppLoterias](https://github.com/juletopi/Linguagem_de_Programacao_Visual/blob/main/AppLoterias/Formularios/FormDiaDeSorte.cs)"*
+
+```c#
+namespace AppLoterias.Formularios
+{
+    public partial class FormDiaDeSorte : Form
+    {
+        public List<int> NumerosDaSorte = new List<int>();
+        public FormDiaDeSorte()
+        {
+            InitializeComponent();
+        }
+
+        /*
+          Dia de Sorte
+          
+          Números envolvidos: 7 números sorteados entre 1 e 31.
+          Classificação de chances de ganhar:
+            - 4 pares e 3 ímpares: "MUITO ALTO!"
+            - 3 pares e 4 ímpares: "ALTO!"
+            - 5 pares e 2 ímpares: "MÉDIO!"
+            - 2 pares e 5 ímpares: "MÉDIO!"
+            - 6 pares e 1 ímpar: "BAIXO!"
+            - 1 par e 6 ímpares: "BAIXO!"
+        */
+
+        public void Classificacao(int par, int impar)
+        {
+            lblPar.Text = "Pares: " + par;
+            lblImpar.Text = "Ímpares: " + impar;
+
+            // Estatísticas
+            if (par == 4 && impar == 3)
+            {
+                lblClass.Text = "MUITO ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if (par == 3 && impar == 4)
+            {
+                lblClass.Text = "ALTO!";
+                lblClass.ForeColor = Color.Green;
+            }
+            else if (par == 5 && impar == 2)
+            {
+                lblClass.Text = "MÉDIO!";
+                lblClass.ForeColor = Color.Orange;
+            }
+            else if (par == 2 && impar == 5)
+            {
+                lblClass.Text = "BAIXO!";
+                lblClass.ForeColor = Color.OrangeRed;
+            }
+            else
+            {
+                lblClass.Text = "MUITO BAIXO!";
+                lblClass.ForeColor = Color.Red;
+            }
+        }
+
+        public void GerarNumeros()
+        {
+            int numero = 0;
+            int contador = 0;
+            int qtdPar = 0;
+            int qtdImpar = 0;
+            Random radNum = new Random();
+            NumerosDaSorte.Clear();
+
+            while (contador < 7) // Dia de Sorte são 7 números
+            {
+                numero = radNum.Next(1, 32); // Dia de Sorte tem números de 1 a 31
+                if (NumerosDaSorte.Contains(numero) == false)
+                {
+                    NumerosDaSorte.Add(numero);
+                    if (numero % 2 == 0) qtdPar++;
+                    if (numero % 2 == 1) qtdImpar++;
+                    contador++;
+                }
+
+                NumerosDaSorte = NumerosDaSorte.OrderBy(num => num).ToList();
+                Classificacao(qtdPar, qtdImpar);
+                dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+            }
+        }
+
+        private void btnGerarNumeros_Click(object sender, EventArgs e)
+        {
+            GerarNumeros();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            NumerosDaSorte.Clear();
+            lblPar.Text = "Pares: 0";
+            lblImpar.Text = "Ímpares: 0";
+            lblClass.Text = "Classificação";
+            lblClass.ForeColor = Color.Black;
+            dgvNumeros.DataSource = NumerosDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+        }
+    }
+}
+```
+
+<div align="left">
+  <h6><a href="#linguagem-de-programação-visual-"> Voltar para o início ↺</a></h6>
+</div>
+
 <br>
 
 <!-- AUTHOR -->
