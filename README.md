@@ -81,6 +81,16 @@
     <a href="#6-calculadora-de-juros">Conceitos Aprendidos 6</a> &#xa0; | &#xa0;
     <a href="#7-exemplos-de-formatação-de-caracteres">Conceitos Aprendidos 7</a> &#xa0; | &#xa0;
     <a href="#8-simulador-de-comissão-da-concessionária-ômega">Conceitos Aprendidos 8</a> &#xa0; | &#xa0;
+    <a href="#9-gerasorte---gerador-de-números-da-sorte">Conceitos Aprendidos 9</a>
+  </p>
+    <a href="#91-gerasorte-janela-de-menu-principal">Conceitos Aprendidos 9.1</a> &#xa0; | &#xa0;
+    <a href="#92-gerasorte-janela-da-lotofácil">Conceitos Aprendidos 9.2</a> &#xa0; | &#xa0;
+    <a href="#93-gerasorte-janela-da-lotomania">Conceitos Aprendidos 9.3</a> &#xa0; | &#xa0;
+    <a href="#94-gerasorte-janela-da-megasena">Conceitos Aprendidos 9.4</a>
+  </p>
+    <a href="#95-gerasorte-janela-da-quina">Conceitos Aprendidos 9.5</a> &#xa0; | &#xa0;
+    <a href="#96-gerasorte-janela-da-supersete">Conceitos Aprendidos 9.6</a> &#xa0; | &#xa0;
+    <a href="#97-gerasorte-janela-da-dia-de-sorte">Conceitos Aprendidos 9.7</a> &#xa0; | &#xa0;
     <a href="#-autor">Autor</a>
   </p>
 </div>
